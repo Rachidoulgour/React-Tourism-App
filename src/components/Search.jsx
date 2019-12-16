@@ -1,4 +1,5 @@
 import React from 'react';
+import {DatePicker} from 'antd'
 
 export default function Search(){
     return(
@@ -10,7 +11,7 @@ export default function Search(){
                 Aeropuerto de llegada
             </div>
             <div>
-                Fecha de salida
+                Fecha de salida: <DatePicker/>
             </div>
         </div>
     )
